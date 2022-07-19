@@ -193,6 +193,34 @@ fieldset{
 		height: auto;
 	}
 
+@keyframes textFromTo {
+	from{opacity: 0}
+	to{opacity: 1}
+}
+
+@keyframes headerAnimation {
+	0%{background-image: url(../assets/header/header.png)}
+	25%{background-image: url(../assets/header/header_accesorios.png)}
+	50%{background-image: url(../assets/header/header_eventos.jpg)}
+	75%{background-image: url(../assets/header/header_juegos.png)}
+	100%{background-image: url(../assets/header/header.png)}
+}
+
+.animation{
+	animation-name: textFromTo;
+	animation-duration: 3s;
+}
+
+#homeHeader{
+	width: 70%;
+	height: 300%;
+	border-bottom: 30px;
+	background-size: cover;
+	animation-name: headerAnimation;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
 /* Media queries */
 /* TABLET */
 @media (min-width: 768px){
