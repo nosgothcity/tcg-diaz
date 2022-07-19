@@ -1,0 +1,17 @@
+En caso de ser necesario se dejaran imágenes de los wireframes en la carpeta wireframe_img
+
+Url wireframe navegador:
+Index Navegador:					https://wireframe.cc/HE0Jqt
+Catalogo Juegos de Mesa Navegador: 	https://wireframe.cc/bw2eU6
+Accesorios Navegador:				https://wireframe.cc/KkMdhU
+Próximos Eventos Navegador: 		https://wireframe.cc/Uk9Abs
+Contáctanos Navegador:			https://wireframe.cc/hUWciu
+
+
+
+Url wireframe mobile:
+Index Mobile: 		https://wireframe.cc/aWj0Ft
+Catalogo Mobile: 	https://wireframe.cc/ts7UdG
+Accesorios Mobile: 	https://wireframe.cc/dDwi7W
+Próximos Eventos: 	https://wireframe.cc/pquFNc
+Contáctanos Mobile:	https://wireframe.cc/KxoF15
