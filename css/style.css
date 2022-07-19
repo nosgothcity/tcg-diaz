@@ -217,7 +217,9 @@ fieldset{
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
 	display: block;
-	margin: auto;
+	margin-bottom: 40px;
+	margin-right: auto;
+	margin-left: auto;
 	padding-bottom: 30px;
 	width: 80%;
 	height: 300px;
