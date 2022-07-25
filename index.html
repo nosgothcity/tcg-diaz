@@ -1,79 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> TCG - Tea, Coffee And Games </title>
-	<link rel="shortcut icon" href="assets/img/favicon.png">
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCG - Tea, Coffee And Games</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+	<link rel="stylesheet" href="css/style-wbs.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-	<div class="contenedor">
-		<nav id="mainNav">
-			<a href="index.html" >
-				<img src="assets/img/logo.png" alt="TCG Logo" class="imgXLarge">
-			</a>
-	
-			<ul class="animation">
-				<li>
-					<a href="pages/juegos-de-mesa.html">Juegos De Mesa</a>
-				</li>
-				<li>
-					<a href="pages/accesorios.html">Accesorios</a>
-				</li>
-				<li>
-					<a href="pages/eventos.html">Próximos Eventos</a>
-				</li>
-				<li>
-					<a href="pages/contacto.html">Contacto</a>
-				</li>
-			</ul>
-		</nav>
-		<header id="homeHeader">
-			<div class="imgHeader"></div>
-		</header>
-		<div id="informaciones">
-			<section class="textCenter">
-				<article class="normalizacion animation">
-					<h1 class="tituloGrande">Sobre TCG</h1>
-					<p>Desde comienzos del año 2022 hemos estado presentando y enseñando diferentes juegos de mesas para todas las edades, tanto juegos familiares como juegos mas competitivos.</p>
-					<p>Nuestra meta es recomendarte el mejor juego de mesa de acuerdo a lo que busques y, lo mas importante, ¡que lo pases genial!.</p>
-				</article>
-				<article class="normalizacion animation">
-					<h2 class="tituloMediano">Experiencias en eventos pasados</h2>
-					<p>Hemos estado con nuestra tienda en diferentes eventos, recomendado juegos, enseñando a principiantes y organizando torneos para las diferentes comunidades que nos acompañan en este maravilloso mundo.</p>
-					<img src="assets/img/evento-otagamer.png" alt="img otagmer" class="imgXLarge">
-					<img src="assets/img/evento-akifest.png" alt="img akifest" class="imgXLarge">
-					<img src="assets/img/evento-luffy.png" alt="img feria luffy" class="imgXLarge">
-				</article>	
-			</section>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-tcg sticky-top" id="majorNav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/logo.png" alt="TCG Logo" class="imgSize">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="pages/juegos-de-mesa.html">Juegos De Mesa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="pages/accesorios.html">Accesorios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="pages/eventos.html">Próximos Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- End NavBar -->
+   
+    <!-- Carousel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/header/header1.png" class="d-block w-100" alt="header juegos">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/header/header2.png" class="d-block w-100" alt="header eventos">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/header/header3.jpeg" class="d-block w-100" alt="header accesorios">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/header/header4.jpg" class="d-block w-100" alt="header accesorios">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- End Carousel -->
+
+    <!-- Main -->
+    <main>
+        <div id="recomendaciones" class="container-fluid py-3">
+			      <h2 class="titulo">Recomendaciones</h2>
+            <div class="row">
+                <article class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="assets/img/dixit.jpg" alt="img unicorn" class="w-80 img-thumbnail">
+                    <h3 class="titulo text-center">Dixit</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam error illo, quis perspiciatis voluptates laborum velit sed vitae culpa, atque, fugiat. Dolore impedit quidem, veritatis! Illo soluta officiis ratione hic.</p>
+                </article>
+                <article class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="assets/img/pandemic.jpg" alt="img unicorn" class="w-80 img-thumbnail">
+                    <h3 class="titulo text-center">Pandemic Cthulhu</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam error illo, quis perspiciatis voluptates laborum velit sed vitae culpa, atque, fugiat. Dolore impedit quidem, veritatis! Illo soluta officiis ratione hic.</p>
+                </article>
+                <article class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="assets/img/unicorn.jpg" alt="img unicorn" class="w-80 img-thumbnail">
+                    <h3 class="titulo text-center">Unicorn</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam error illo, quis perspiciatis voluptates laborum velit sed vitae culpa, atque, fugiat. Dolore impedit quidem, veritatis! Illo soluta officiis ratione hic.</p>
+                </article>
+            </div>
+		    </div>
+
+        <div id="informaciones" class="container-fluid py-3">
+            <div class="row">
+                <article class="col-sm-12 col-md-6 col-lg-6 py-4">
+                    <h2 class="titulo">Sobre TCG</h2>
+                    <p>Desde comienzos del año 2022 hemos estado presentando y enseñando diferentes juegos de mesas para todas las edades, tanto juegos familiares como juegos mas competitivos.</p>
+                    <p>Nuestra meta es recomendarte el mejor juego de mesa de acuerdo a lo que busques y, lo mas importante, ¡que lo pases genial!.</p>
+                </article>
+                <article class="col-sm-12 col-md-6 col-lg-6 py-4">
+                    <h2 class="titulo">Experiencias en eventos pasados</h2>
+                    <p>Hemos estado con nuestra tienda en diferentes eventos, recomendado juegos, enseñando a principiantes y organizando torneos para las diferentes comunidades que nos acompañan en este maravilloso mundo.</p>
+                    <div class="row" id="eventImg">
+                        <img src="assets/img/evento-otagamer.png" alt="img otagmer" class="col-sm-12 col-md-6 col-lg-6">
+                        <img src="assets/img/evento-akifest.png" alt="img akifest" class="col-sm-12 col-md-6 col-lg-6">
+                        <img src="assets/img/evento-luffy.png" alt="img feria luffy" class="col-sm-12 col-md-6 col-lg-6">    
+                    </div>
+                </article>
+            </div>
 		</div>
-		<div id="recomendados" class="textCenter normalizacion">
-			<h2 class="tituloGrande">Recomendaciones</h1>
-			<div class="gallery">
-				<img src="assets/img/dixit.jpg" alt="img unicorn" class="imgXXLarge">
-				<p>Dixit</p>
-			</div>
-			<div class="gallery">
-				<img src="assets/img/pandemic.jpg" alt="img pandemic" class="imgXXLarge">
-				<p>Pandemic Cthulhu</p>
-			</div>
-			<div class="gallery">
-				<img src="assets/img/unicorn.jpg" alt="img unicorn" class="imgXXLarge">
-				<p>Unicorn</p>
-			</div>
-		</div>
-		<footer class="pie">
-			<hr>
-			<h3>Nuestras Redes</h3>
-			<a href="https://facebook.com/" target="_blank">
-				<img src="assets/img/facebook.png" alt="" class="imgMedium">
-			</a>
-			<a href="https://instagram.com/" target="_blank">
-				<img src="assets/img/instagram.png" alt="" class="imgMedium">
-			</a>
-		</footer>
-	
-	</div>
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer class="py-3 mt-3 text-black bg-tcg">
+        <h3 class="text-center fw-bold">Síguenos en nuestras redes.</h3>
+        <div class="text-center">
+            <img src="assets/img/instagram.png" alt="TCG Instagram" class="imgSize">
+            <img src="assets/img/facebook.png" alt="TCG Facebook" class="imgSize">    
+        </div>
+    </footer>
+    <!-- End Footer -->
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
