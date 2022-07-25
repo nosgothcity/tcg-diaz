@@ -6,14 +6,14 @@
 	margin: 0;
 }
 
-h1, h2{
+h1, h2, .price{
     text-align: center;
 }
 
 p, h3{
     text-align: justify;
 }
-
+  
 html{
 	font-size: 100%;
 }
@@ -36,7 +36,7 @@ html{
     margin-bottom: 10%;
 }
 
-#recomendaciones, #informaciones, #contactanos{
+#recomendaciones, #informaciones, #contactanos, #juegosDeMesa, #tcg, #accesorios, header{
     background-color:rgba(243, 240, 240, .8);
 }
 
@@ -74,6 +74,30 @@ footer .imgSize{
     margin-left: auto;
     margin-right: auto;
   
+}
+
+#navbarNav ul li a {
+    text-transform: uppercase;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+    #navbarNav ul li a:hover {
+        color: #111111;
+        font-weight: 600;
+        background-size: 100% 2px;
+    }
+
+main{
+    animation-name: animationMain;
+    animation-duration: 2s;
+}
+
+@keyframes animationMain{
+    from{opacity: 0}
+    to{opacity: 1}
 }
 
 @media (min-width: 426px) and (max-width: 768px){
@@ -119,5 +143,10 @@ footer .imgSize{
 
     #eventImg{
         width: 500px;
+    }
+
+    main {
+        margin-right: 15%;
+        margin-left: 15%;
     }
 }
