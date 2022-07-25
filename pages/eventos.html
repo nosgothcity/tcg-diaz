@@ -5,51 +5,76 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> TCG - Tea, Coffee And Games </title>
 	<link rel="shortcut icon" href="../assets/img/favicon.png">
-	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/style-wbs.css">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-	<nav>
-		<a href="../index.html">
-			<img src="../assets/img/logo.png" alt="TCG Logo" class="imgXLarge">
-		</a>
-		<ul>
-			<li>
-				<a href="juegos-de-mesa.html">Juegos De Mesa</a>
-			</li>
-			<li>
-				<a href="accesorios.html">Accesorios</a>
-			</li>
-			<li>
-				<a href="eventos.html">Próximos Eventos</a>
-			</li>
-			<li>
-				<a href="contacto.html">Contacto</a>
-			</li>
-		</ul>
-	</nav>
-	<header>
-		<img src="../assets/img/header_eventos.jpg" alt="header image" class="imgHeader">
-	</header>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-tcg sticky-top" id="majorNav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+            <img src="../assets/img/logo.png" alt="TCG Logo" class="imgSize">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" href="juegos-de-mesa.html">Juegos De Mesa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="accesorios.html">Accesorios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="eventos.html">Próximos Eventos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End NavBar -->
+    <header>
+		<h1 class="titulo">Próximos Eventos</h1>
+	 </header>
+	<!-- Main -->  
 	<main>
-		<h1 class="textCenter">Próximos Eventos</h1>
-		<section class="textCenter">
-			<article class="normalizacion">
-				<h2 class="tituloGrande">Feria Friki</h2>
-				<img src="../assets/img/feriafrikilogo.jpg" alt="" class="imgXXLarge">
-				<p>Agosto - Septiembre 2022</p>
-				<p>Fechas definitivas por confirmar.</p>
-			</article>
-		</section>
+		<div id="juegosDeMesa" class="container-fluid py-3">
+			<div class="row">
+				<article class="col-sm-12 col-md-6 col-lg-6">
+					<h3 class="titulo text-center">Feria Friki</h3>
+					<img src="../assets/img/feriafrikilogo.jpg" alt="evento feria friki" class="w-50 img-thumbnail rounded mx-auto d-block">
+					<h4 class="text-center">Fecha</h4>
+					<p class="text-center">Sábado 6 y Domingo 7 de Agosto</p>
+					<h4 class="text-center">Horario</h4>
+					<p class="text-center">11:00 a 18:00 hrs.</p>
+					<h4 class="text-center">Dirección</h4>
+					<p class="text-center">Parque Gómez Rojas. Bellavista 37, Recoleta, Providencia, Chile.</p>
+				</article>
+				<article class="col-sm-12 col-md-6 col-lg-6">
+					<h4>Dirección</h4>
+					<div class="ratio ratio-16x9">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2433.2759066423746!2d-70.63796778660796!3d-33.43485756975528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59a566883bb%3A0xce6190ce74b6b5ac!2sParque%20G%C3%B3mez%20Rojas!5e0!3m2!1ses!2scl!4v1658718473505!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" title="Direccion Feria Friki" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</article>
+			</div>
+		</div>
 	</main>
-	<footer class="pie centerElement">
-		<hr>
-		<h3>Nuestras Redes</h3>
-		<a href="https://facebook.com/" target="_blank">
-			<img src="../assets/img/facebook.png" alt="" class="imgMedium">
-		</a>
-		<a href="https://instagram.com/" target="_blank">
-			<img src="../assets/img/instagram.png" alt="" class="imgMedium">
-		</a>
-	</footer>
+    <!-- Footer -->
+    <footer class="py-3 mt-3 text-black bg-tcg">
+        <h3 class="text-center fw-bold">Síguenos en nuestras redes.</h3>
+        <div class="text-center">
+            <img src="../assets/img/instagram.png" alt="TCG Instagram" class="imgSize">
+            <img src="../assets/img/facebook.png" alt="TCG Facebook" class="imgSize">    
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
