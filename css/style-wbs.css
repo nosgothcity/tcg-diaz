@@ -13,6 +13,10 @@ h1, h2, .price{
 p, h3{
     text-align: justify;
 }
+
+p {
+    font-size: 30px;
+}
   
 html{
 	font-size: 100%;
@@ -22,9 +26,10 @@ html{
 	background-color:rgba(227, 143, 26, 0.8);
 }
 
-.btn-tcg{
-	background-color: rgba(227, 143, 26, 0.8);
+#btn-tcg{
+	background-color: rgba(249, 185, 97, 0.8);
 	color: rgb(53, 51, 51);
+    font-weight: bold;
 }
 
 .titulo{
