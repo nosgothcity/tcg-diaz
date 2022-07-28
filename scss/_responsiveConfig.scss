@@ -1,0 +1,50 @@
+@media (min-width: 426px) and (max-width: 768px){
+    #majorNav .navbar-brand{
+        margin-left: 5%;
+    }
+
+    #eventImg{
+        width: 300px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    #majorNav .navbar-brand{
+        margin-left: 10%;
+    }
+
+    #majorNav ul{
+        margin-right: 10%;
+    }
+
+    #eventImg{
+        width: 350px;
+    }
+}
+
+@media (min-width: 1025px){
+    p{
+        font-size: x-large;
+    }
+
+    #eventImg{
+        width: 300px;
+    }
+
+    #majorNav .navbar-brand{
+        margin-left: 20%;
+    }
+
+    #majorNav ul{
+        margin-right: 20%;
+    }
+
+    #eventImg{
+        width: 500px;
+    }
+
+    main {
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}

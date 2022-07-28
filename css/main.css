@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&display=swap");
+.bg-tcg {
+  background-color: rgba(227, 143, 26, 0.8);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+}
+.bg-tcg .imgSize {
+  width: 120px;
+}
+.bg-tcg ul {
+  margin-right: 5%;
+}
+.bg-tcg ul li a {
+  text-transform: uppercase;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.bg-tcg ul li a:hover {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+  background-size: 100% 2px;
+}
+
+header, main {
+  background-color: rgba(243, 240, 240, 0.8);
+  font-family: "Lato", sans-serif;
+}
+header h1, header h2, main h1, main h2 {
+  text-align: center;
+}
+header p, header h3, main p, main h3 {
+  text-align: justify;
+}
+
+main {
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+footer {
+  padding: 0;
+  margin: 0;
+}
+footer img {
+  width: 35px;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  #majorNav .navbar-brand {
+    margin-left: 5%;
+  }
+  #eventImg {
+    width: 300px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  #majorNav .navbar-brand {
+    margin-left: 10%;
+  }
+  #majorNav ul {
+    margin-right: 10%;
+  }
+  #eventImg {
+    width: 350px;
+  }
+}
+@media (min-width: 1025px) {
+  p {
+    font-size: x-large;
+  }
+  #eventImg {
+    width: 300px;
+  }
+  #majorNav .navbar-brand {
+    margin-left: 20%;
+  }
+  #majorNav ul {
+    margin-right: 20%;
+  }
+  #eventImg {
+    width: 500px;
+  }
+  main {
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
