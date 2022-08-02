@@ -1,0 +1,21 @@
+
+header, main {
+    background-color: $infoDivColors;
+    font-family: $subFont;
+    h1, h2{
+        text-align: center;
+    }
+    
+    p, h3{
+        text-align: justify;
+    }
+}
+
+main {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+footer .footerImgSize{
+    width: 35px;
+}

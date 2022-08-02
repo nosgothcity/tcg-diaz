@@ -1,0 +1,25 @@
+
+.bg-tcg {
+    background-color: $navBarColors;
+    font-family: $mainFont;
+    font-size: $textSizeS;
+    .imgSize{
+        width: 120px;
+    }
+    ul {
+        margin-right: 5%;
+        li a {
+            text-transform: uppercase;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+            &:hover{
+                color: $textColor;
+                font-weight: 600;
+                background-size: 100% 2px;    
+            }
+        }
+    }    
+}
