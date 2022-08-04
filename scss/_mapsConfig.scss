@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+$fonts: (
+    'mainFont': ('Roboto', sans-serif),
+    'subFont': ('Lato', sans-serif),
+    'thirdFont': ('Oswald', sans-serif),
+);
+
+$textSize: (
+    'textSizeXxs': 1.1em,
+    'textSizeXs': 1.2em,
+    'textSizeS': 1.5em,
+    'textSizeM': 1.8em,
+    'textSizeL': 2em,
+);
+
+$colors: (
+    'orangePrimary': rgba(227, 143, 26, 0.8),
+    'grey': rgba(243, 240, 240, .8),
+    'darkGrey': rgba(81, 81, 81, 0.8),
+    'orangeSecondary': rgba(249, 185, 97, 0.8),
+    'black': rgba(0, 0, 0, 0.8),
+);

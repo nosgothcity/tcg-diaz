@@ -1,21 +1,47 @@
-
-header, main {
-    background-color: $infoDivColors;
-    font-family: $subFont;
+@mixin formatInfo($fontType){
+    background-color: map-get($map: $colors, $key: 'grey');
+    font-family: $fontType;
     h1, h2{
         text-align: center;
     }
-    
-    p, h3{
-        text-align: justify;
+    h1{
+        font-size: map-get($map: $textSize, $key: 'textSizeXs');
     }
 }
 
-main {
-    margin-right: 15%;
-    margin-left: 15%;
+header {
+    @include formatInfo(map-get($map: $fonts, $key: 'mainFont'));
 }
 
-footer .footerImgSize{
+main {
+    @include formatInfo(map-get($map: $fonts, $key: 'subFont'));
+    p {
+        color: map-get($map: $colors, $key: 'darkGrey');
+        font-size: map-get($map: $textSize, $key: 'textSizeXs');
+    }
+    margin-right: 15%;
+    margin-left: 15%;
+
+    .nextEvent{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;      
+    }
+
+    .btn-tcg{
+        background-color: map-get($map: $colors, $key: 'orangeSecondary');
+    }
+
+    .titulo {
+        font-family: map-get($map: $fonts, $key: 'thirdFont');
+        text-align: center;
+    }
+    
+    .price {
+        @extend .titulo;
+    }
+}
+
+footer .text-center .imgSize{
     width: 35px;
 }
