@@ -1,0 +1,27 @@
+# Archivo index
+Description: Se agregó lo siguiente para la etiqueta meta description: Juegos de mesa, juegos de cartas coleccionables y accesorios. Para disfrutar en familia o de manera competitiva con amigos.
+Keywords: Se agrego la etiqueta meta keywords con lo siguiente: juegos de mesa, dados, tcg, magic the gathering, pokemon, catan, yu-gi-oh!
+H1: Se utiliza el siguiente texto en la etiqueta h1: En TCG encontrarás juegos para toda la familia, todas las edades. Juegos que inspiran la creatividad y te desafian a buscar soluciones o estrategias diferentes cada vez que los juegas. 
+Además encontraras diferentes accesorios para guardar y cuidar tus juegos de mesa para que los puedas utilizar por mucho tiempo.
+
+# Archivo juegos-de-mesa
+Description: Se agregó lo siguiente para la etiqueta meta description: Juegos de mesa clásicos, para partidas rápidas y para ser jugados entre varios jugadores en una sesión larga de juego. También puedes jugar con tus amigos juegos de cartas coleccionables donde podrás crear tus propias estrategias y estilo de juego.
+Keywords: Se agrego la etiqueta meta keywords con lo siguiente: catan, pandemic, unicorn, mtg, pokemon, final fantasy
+H1: Se utiliza el siguiente texto en la etiqueta h1: Existen diferentes tipos de juegos de mesa, para todas las edades y gustos. Ya sean para largas sesiones de juegos o rapidos y que requieren poco tiempo para aprenderse.
+
+# Archivo accesorios
+Description: Se agregó lo siguiente para la etiqueta meta description: Accesorios para complementar, organizar o cuidar tus juegos de mesa o juegos de cartas.
+Keywords: Se agrego la etiqueta meta keywords con lo siguiente: dados, guarda mazos, protectores, hojas de archivadores, carpeta de cartas.
+H1: Se utiliza el siguiente texto en la etiqueta h1: Diferentes accesorios para utilizar en tus juegos y organizarlos a tu manera o también para proteger tu colección de cartas.
+
+# Archivo eventos
+Description: Se agregó lo siguiente para la etiqueta meta description: Nuestra tienda TCG constantemente asiste a diferentes ferias y eventos, donde realizamos concursos y demostraciones de juegos.
+Keywords: Se agrego la etiqueta meta keywords con lo siguiente: eventos, ferias, tea coffee and games, feria friki, comunidad.
+H1: Se utiliza el siguiente texto en la etiqueta h1: TCG estará presente en las siguientes ferias y eventos para que vayas a visitarnos y disfrutes de una divertida jornada. ¡Además te puedes encontrar con sopresas en vivo!
+
+# Archivo contacto
+Description: Se agregó lo siguiente para la etiqueta meta description: Si tienes alguna consulta sobre una compra realizada, prevente de algun articulo o stock, no dudes en contactarnos en nuestros diferentes canales.
+Keywords: Se agrego la etiqueta meta keywords con lo siguiente: consultas, horarios de atencion, direccion, canales de atencion, redes sociales.
+H1: Se utiliza el siguiente texto en la etiqueta h1: Deja tu consulta y te responderemos a la brevedad. Recuerda que también puedes contactarnos en nuestras redes sociales.
+
+Además en index, juegos-de-mesa, accesorios y eventos se agregaron mejores descripciones para las imagenes en el atributo alt.
